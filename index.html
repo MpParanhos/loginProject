@@ -11,11 +11,11 @@
     <main>
         <div id="containerStatus">
             <div>
-                <label>Usuário:</label>
+                <label>Usuário: </label>
                 <label id="lblUser">xxx</label>
             </div>        
             <div>
-                <label>Nível</label>
+                <label>Nível: </label>
                 <label id="lblNivel">xxx</label>
             </div>
         </div>
@@ -23,12 +23,15 @@
             <label>Email</label>
             <input type="text" id="inpEmail" placeholder="Entre com email">
             <label>Password</label>
-            <input type="text" id="inpPassword" placeholder="Password">
+            <input type="password" id="inpPassword" placeholder="Password">
             <button id="btnLogin">Login</button>
         </div>
         <button id="btnCadpro">Cadastrar Produtos</button>
     </main>
 
+    <script src="./node_modules/jwt-decode/build/jwt-decode.js"></script>
+    <script src="./node_modules/js-cookie/src/js.cookie.js"></script>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>

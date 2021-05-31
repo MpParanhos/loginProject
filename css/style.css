@@ -1,0 +1,41 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(153, 153, 255, 0.527);
+}
+
+#containerStatus{
+    margin-top: 30px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.400);
+}
+
+#containerLogin{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 25px;
+    background-color: rgb(131, 131, 255);
+    height: 100px;
+    width: 200px;
+    border-radius: 7px;
+}
+
+#containerLogin input{
+    margin-bottom: 5px;
+}
+
+button{
+    border-radius: 3px;
+    border: none;
+}
